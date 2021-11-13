@@ -1,0 +1,313 @@
+.logo-class {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 14px;
+  right: 30px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.all-thing-lashes-and-brows {
+  position: relative;
+  left: 20px;
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+
+.beauty-bar-by-cw-class {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 60px;
+  color: black;
+  margin: 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: Tahoma, Verdana, sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ec56b3;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ec56b3;
+  color: white;
+}
+
+.nav-section {
+  height: 40px;
+}
+
+/* HOME */
+.beeauty-bar-container {
+  width: 100%;
+  margin: auto;
+}
+
+.beauty-bar-img {
+  width: 100%;
+}
+
+/* LASH */
+.lash-block {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  min-height: 497px;
+  padding-top: 80px;
+  position: relative;
+  background-image: url("polkadots.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.polkadots-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  height: 100%;
+}
+
+.classic-lash-container {
+  margin-top: 10px;
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.classic-lash-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.volume-lash-container {
+  margin-top: 10px;
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.volume-lash-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* BROWS */
+.brow-block {
+  width: 100%;
+  background-color: #ec56b3;
+  min-height: 535px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.brow-container {
+  margin-top: 10px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+
+  /* background-image: url('browframe.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.brow-frame-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+
+.brow-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* GALLERY */
+.gallery-block {
+  width: 100%;
+  min-height: 475px;
+  background-color: white;
+}
+
+.gallery-font {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lash-image-1-class {
+  width: 413px;
+}
+
+.lash-image-2-class {
+  width: 413px;
+}
+
+.lash-image-3-class {
+  width: 413px;
+}
+
+@media (max-width: 600px) {
+  .lash-image-1-class {
+    flex: 1 1 auto;
+  }
+
+  .lash-image-2-class {
+    flex: 1 1 auto;
+  }
+
+  .lash-image-3-class {
+    flex: 1 1 auto;
+  }
+}
+/* ABOUT ME */
+.about-me-block {
+  width: 100%;
+  background-color: #ec56b3;
+  margin-top: 10px;
+  display: flex;
+  padding: 20px;
+  min-height: 525px;
+}
+
+.casey-image-container {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.casey-image {
+  border: 2px solid;
+  padding: 10px;
+  max-height: 450px;
+}
+
+.about-me-container {
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-font {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  width: 500px;
+  margin-left: 5px;
+}
+
+/* POLICY */
+.policy-block {
+  width: 100%;
+  min-height: 420px;
+  background-color: white;
+}
+
+.policy-container {
+  margin-top: 10px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid;
+  margin: 90px;
+}
+
+.policy-text {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 10%;
+}
+
+/* CONTACT */
+.contact-block {
+  width: 100%;
+  min-height: 550px;
+  background-color: #ec56b3;
+  display: flex;
+}
+
+.contact-container {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  display: flex;
+}
+
+.contact-text {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ig-class {
+  height: 18px;
+  width: 18px;
+}
+
+.vertical {
+  border-left: 5px solid black;
+  height: 470px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-top: 115px;
+}
+
+iframe {
+  width: 70%;
+  height: 70%;
+}
